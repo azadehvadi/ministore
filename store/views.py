@@ -12,3 +12,10 @@ def product(request):
     else:
         form=ProductForm()
     return render(request,'store/products.html',{'form':form})
+
+
+
+
+def home(request):
+
+    return render(request,'store/home.html')
